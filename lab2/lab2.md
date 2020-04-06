@@ -32,6 +32,11 @@ SELECT to_tsvector('The quick brown fox jumped over the lazy dog')
 SELECT to_tsvector('The quick brown fox jumped over the lazy dog')  
     @@ to_tsquery('foxhound');
 ```
+<img src = './pics/3.png' />
+
+<img src = './pics/4.png' />
+
+<img src = './pics/5.png' />
 
 > Задание 2
 1. Что означают символы `@@`
