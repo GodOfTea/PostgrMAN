@@ -9,10 +9,12 @@ SELECT to_tsvector('The quick brown fox jumped over the lazy dog.');
                 to_tsvector
 'brown':3 'dog':9 'fox':4 'jump':5 'lazi':8 'quick':2
 ```
+<img src = './pics/1.png' />
 
 > Задание 1
 1. Изучите документацию к функции `to_tsvector`
 2. Вызовите эту функцию для следующей строки: `Съешь ещё этих мягких французских булок, да выпей чаю`
+<img src = './pics/2.png' />
 3. Почему в векторе нет слова `да`?
 
 #### 2. Тип tsquery
